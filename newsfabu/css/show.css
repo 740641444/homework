@@ -1,0 +1,40 @@
+.zmr_dlsuc{
+	display: block;
+}
+.zmr_catbox>ul>li{
+	position: relative;
+}
+.zmr_del{
+	position: absolute;
+	left: -30px;
+	/*border: 1px solid #000;*/
+	border-radius: 50%;
+	background-color: red;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	font-size: 10px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+	display: none;
+}
+.zmr_edit{
+	position: absolute;
+	left: -30px;
+	/*border: 1px solid #000;*/
+	border-radius: 50%;
+	background-color: red;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	font-size: 10px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+	display: none;
+}
+
+.zmr_dlsuc_l>ul>li:last-child{
+	display: none;
+}

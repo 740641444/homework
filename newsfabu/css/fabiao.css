@@ -1,0 +1,10 @@
+.zmr_catbox>span{
+	font-size: 18px;
+}
+#text{
+	width: 1000px;
+	height: 260px;
+}
+.btn{
+	display: none;
+}
