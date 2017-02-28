@@ -1,0 +1,47 @@
+<?php
+    session_start();
+    if(!empty($_SESSION["flag"])){
+        echo "<script>alert('您已登录');location.href='admin/admin.php';</script>";
+        exit;
+    }
+?>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery.min.js"></script>
+<style>
+	
+.zmr_landbox{
+	width: 500px;height: 250px;
+	padding: 50px 0;
+	position: absolute;
+	top: 0;bottom: 0;left: 0;right: 0;
+	margin: auto auto;
+	border: 1px solid #000;
+	text-align: center;
+	line-height: 30px;
+}
+	
+</style>
+
+	</head>
+	<body>
+
+<div class="zmr_landbox">
+	<h2>管理员登陆系统</h2>
+	<form action="admin/dl.php" method="post">
+		管理员账号：<input type="text" id="name" name="name" value="" /><br />
+		<span></span><br />
+		管理员密码：<input type="password" id="password" name="password" value="" /><br />
+		<span></span><br />
+		<input type="submit" id="btn" value="登陆" /><br />
+		如果没有账号，请<a href="register.html">点击这里</a>注册
+	</form>
+</div>
+
+	</body>
+</html>

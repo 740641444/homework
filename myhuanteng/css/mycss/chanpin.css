@@ -1,0 +1,30 @@
+.zmr_floorboxrightbox img{
+	width: 207px;
+	height: 147px;
+	border: 1px solid #d8d8d8;	
+}
+.zmr_floorboxrightbox>ul{
+	float: left;
+	text-align: center;
+	margin: 12px 12px;
+}
+.zmr_floorboxrightbox>ul>li>a{
+	color: #838383;
+}
+.zmr_floorboxrightbox{
+	overflow: hidden;
+}
+
+.zmr_floorboxrightbottom{
+	height: 60px;
+	width: 717px;
+	margin-top: 20px;
+	border-top: 1px solid #b7b7b7;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 50px;
+}
+
+.zmr_floorboxrightbottom_a{
+	margin:0 5px;
+}

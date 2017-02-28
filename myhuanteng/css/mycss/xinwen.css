@@ -1,0 +1,25 @@
+.zmr_floorboxrightbox>ul>li{
+	height: 20px;
+	line-height: 20px;
+	color: #787777;
+	background: url(../../images/myimages/xinwen.png) no-repeat left center;
+	padding-left: 10px;
+}
+.zmr_floorboxrightbox>ul>li>a{	
+	color: #787777;
+	float: left;
+}
+.zmr_floorboxrightbox>ul>li>span{
+	float: right;
+}
+.zmr_floorboxrightboxtop>ul{
+	text-align: center;
+	color: #787777;
+	margin-bottom: 20px;
+}
+.zmr_floorboxrightneirong{
+	color: #78777;
+	border-top: 1px solid #787777;
+	border-bottom: 1px solid #787777;
+	padding: 20px 0;
+}

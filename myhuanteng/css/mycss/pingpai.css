@@ -1,0 +1,98 @@
+.zmr_img{
+	width: 100%;
+	height: 304px;
+	background-image: url(../../images/myimages/imgdi.png);
+}
+.zmr_imgbanner{
+	width: 1015px;
+	height: 304px;
+	background-image: url(../../images/myimages/imgbanner.png);
+	margin: 0 auto;
+}
+.zmr_floor{
+	width: 100%;
+	background-color: #1a1a1a;
+	overflow: hidden;
+}
+.zmr_floorbox{
+	width: 1015px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.zmr_floorboxleft{
+	width: 226px;
+	height: 450px;
+	background-image: url(../../images/myimages/sub.png) ;
+	float: left;
+	padding-top: 75px;
+}
+.zmr_floorboxleft>ul>li>a{
+	width: 232px;
+	height: 43px;
+	display: block;
+	color: #8e8b8a;
+}
+.zmr_floorboxleft>ul>li{
+	width: 232px;
+	height: 43px;
+	text-align: center;
+	line-height: 43px;
+	background: url(../../images/myimages/line.png) no-repeat 0 34px;
+	float: left;
+}
+.zmr_floorboxleft>ul>li>a:hover{
+	background: url(../../images/myimages/sub_hover.png);
+    color: #491304;
+    font-size: 16px;
+}
+.zmr_floorboxright{
+	width: 765px;
+	float: right;
+	background-image: url(../../images/myimages/baidi.png);
+	padding-top: 12px;
+	overflow: hidden;
+}
+.zmr_floorboxrighttop{
+	width: 765px;
+	height: 39px;
+	background-image: url(../../images/myimages/title.png);
+	line-height: 39px;
+	color: #8e8b8a;
+}
+.zmr_floorboxrighttopleft{
+	float: left;
+}
+.zmr_floorboxrighttopleft>span{
+	margin-left: 20px;
+	margin-right: 5px;
+	color: #fff;
+	font-size: 14px;
+}
+.zmr_floorboxrighttopright{
+	float: right;
+	color:#fff;
+	margin-right: 20px;
+}
+.zmr_floorboxrighttopright>a{
+	color:#fff;
+}
+.zmr_floorboxrighttopright>span{
+	margin: 0 5px;
+}
+
+
+.zmr_floorboxrightbox{
+	width: 705px;
+	padding: 20px 30px;
+	text-align: left;
+	
+}
+
+.zmr_floorboxrightbottom{
+	margin-top: 10px;
+	/*padding: 5px 0;*/
+	color: #787777;
+}
+.zmr_floorboxrightbottom>a{
+	color: #787777;
+}

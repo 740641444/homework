@@ -1,0 +1,45 @@
+
+.zmr_zaixian{
+	margin: 0 auto;
+	text-align: center;
+	color: #706f6f;
+	overflow: hidden;
+	padding-left: 140px;
+	height: 400px;
+	position: relative;
+}
+.zmr_zaixian>ul{
+	float: left;
+	height: 35px;
+	margin-top: 20px;
+}
+.zmr_zaixian>ul>li{
+	margin: 0 10px;
+	float: left;
+}
+.zmr_zaixian input{
+	border: 0;
+	/*display: block;*/
+	height: 23px;
+	width: 320px;
+	border-bottom: 1px solid #b6b6b6;
+	background-image: url(../../images/myimages/baidi.png);
+}
+#yu{
+	height: 60px;
+	width: 320px;
+	border: 1px solid #b6b6b6 ;	
+}
+#tijiao{
+	width: 134px;
+	height: 28px;
+	background-image: url(../../images/myimages/tijiao.png);
+	position: absolute;
+	bottom: 50px;
+	left: 300px;
+}
+#tijiao a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
