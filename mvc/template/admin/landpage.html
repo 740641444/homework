@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="{JS_PATH}/jquery.min.js"></script>
+<style>
+	
+.zmr_landbox{
+	width: 500px;height: 250px;
+	padding: 50px 0;
+	position: absolute;
+	top: 0;bottom: 0;left: 0;right: 0;
+	margin: auto auto;
+	border: 1px solid #000;
+	text-align: center;
+	line-height: 30px;
+}
+
+	
+</style>
+
+	</head>
+	<body>
+
+<div class="zmr_landbox">
+	<h2>管理员登陆系统</h2>
+	<form action="{$url}" method="post">
+		管理员账号：<input type="text" id="name" name="name" value="" /><br />
+		<span></span><br />
+		管理员密码：<input type="text" id="password" name="password" value="" /><br />
+		<span></span><br />
+		验证码：<input type="text" /><br /><img src="{CODE_PATH}/code.class.php"/><br />
+		<input type="submit" id="btn" value="登陆" /><br />
+	</form>
+</div>
+
+	</body>
+</html>
