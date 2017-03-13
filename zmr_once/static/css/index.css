@@ -1,0 +1,166 @@
+html,body{
+	width: 100%;height: 100%;
+}
+
+a {
+  transition: color 0.2s ease-out;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: plum;
+}
+
+/*顶部导航开始*/
+.zmr_nav{
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width:100%;height: 15%;
+	/*background: url(../images/bgnav.png);*/
+	background: rgba(0,0,0,0.7);
+}
+.zmr_navbox{
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	/*background-color: #000000;*/
+	color: #fff;
+}
+.zmr_nav_l{
+	height: 100%;width: 30%;
+	float: left;
+	position: relative;
+	/*background-color: red;*/
+}
+.zmr_nav_l span{
+	color: plum;
+}
+.zmr_nav_l_z{
+	width: 150px;height: 40px;
+	font-size: 60px;
+	position: absolute;
+	left: 30%;top: 25%;
+	font-family: "lucida sans typewriter";
+	    /*color: transparent;
+    text-shadow: #111 0 0 5px;*/
+}
+.zmr_nav_l_q{
+	width: 250px;height: 40px;
+	font-size: 25px;
+	position: absolute;
+	left: 75%;top: 58%;
+}
+.zmr_nav_touxiang{
+	width: 70px;height: 75px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	float: left;
+	position: absolute;
+	top: 8%;left: 2%;
+	background: url(../images/m_02.png);
+	background-size: 100% ;
+	background-position: -1px -5px;
+}
+.zmr_nav_r{
+	height: 100%;
+	float: right;
+}
+.zmr_nav_r>ul{
+	display: none;
+}
+.zmr_nav_r>.flag{
+	display: block;
+}
+.zmr_nav_r>.tui>li{
+	height: 100%;
+	line-height: 140px;
+	font-size: 18px;
+	float: left;
+	font-family: "微软雅黑";
+}
+.zmr_nav_r>.tui>li>span{
+	color: plum;
+}
+.zmr_nav_r>.tui>li>a{
+  color: #bbbbbb;
+}
+.zmr_nav_r>.tui>li>a:hover{
+  color: plum;
+}
+.zmr_nav_r>.deng>li{
+	height: 100%;
+	line-height: 140px;
+	font-size: 18px;
+	margin: 0 20px;
+	float: left;
+	cursor: pointer;
+	font-family: "微软雅黑";
+}
+.zmr_nav_r>ul>.deng:hover{
+	color: plum;
+}
+.zmr_nav_rxuan{
+	color: plum;
+	font-weight: bold;
+}
+
+
+
+/*顶部导航结束*/
+
+/*楼层样式开始*/
+.zmr_floorbox{
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.zmr_floor:nth-of-type(1){
+    height: 100%;width: 100%;
+    position: absolute;
+    background:url(../images/background/01.png);
+    background-size: 100% 100%;
+}
+
+/*floor01开始*/
+    /*文字渐变开始*/
+    .zmr_text {
+        position:absolute;
+        font-family: "Arial", sans-serif;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+    	color: #3d3d3d; 
+    	opacity: 0;         
+    }
+    .zmr_text>span {
+    	  text-shadow: 
+    	  	0 -1px 0 #858585,
+              
+               0 1px 10px rgba(0,0,0,.6),
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.2),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 7px 10px rgba(0,0,0,.25),
+               0 15px 10px rgba(0,0,0,.2),
+               0 25px 15px rgba(0,0,0,.15);
+    }
+    
+    .zmr_welcome{
+    	font-size: 110px;
+    	top: 9%;left: 4%;
+    }
+    .zmr_this{
+    	font-size: 55px;
+    	top: 48%;left: 15%;
+    }
+    .zmr_hope{
+    	font-size: 55px;
+    	top: 65%;left: 25%;
+    	font-family: "黑体";
+    }
+    /*文字渐变结束*/
+/*floor01结束*/
