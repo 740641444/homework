@@ -1,0 +1,419 @@
+*{
+    padding:0;margin:0;border: 0;
+    list-style: none;text-decoration: none;
+}
+html,body{
+    width: 100%;height: 100%;
+}
+.zmr_nav{
+    width: 100%;height: 44px;
+    background: rgba(0,0,0,0.8);
+    position: relative;
+}
+
+
+.zmr_guanggao{
+    background: #444;
+    line-height: 1;
+    width: 100%;
+    height: 40px;
+}
+.zmr_guanggao>div{
+    color: #a8a8aa;
+    font-size: 12px;
+    line-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: right;
+    max-width: 976px;
+    margin: 0 auto;
+}
+/*大屏幕样式*/
+.zmr_da{
+    height: 100%;
+    max-width: 1000px;padding:0 12px;
+    margin:0 auto;
+    display: none;
+}
+.zmr_da ul li{
+    float: left;
+    line-height: 44px;
+    width: 11.111111%;
+}
+.zmr_da ul li a{
+    transition: color 0.2s ease-out;
+    color: #ffffff;
+}
+.zmr_da ul li a:hover{
+    color: #888888;
+}
+/*小屏幕样式*/
+.zmr_xiao{
+    height: 100%;
+    width: 100%;
+    margin:0 auto;
+    cursor: pointer;
+}
+    /*菜单*/
+.zmr_caidan{
+    width: 20px;height:20px;
+    margin-top:21px;
+}
+.zmr_caidan .zmr_line1{
+    width: 100%;height: 1px;
+    margin-top:5px;
+    background-color: #ffffff;
+}
+.zmr_caidan .zmr_line2{
+    width: 100%;height: 1px;
+    margin-top:5px;
+    background-color: #ffffff;
+}
+
+.zmr_xiao>div{
+    width: 33.333333%;
+    float: left;
+    line-height: 44px;
+}
+.zmr_xiao>div:nth-of-type(2){
+    text-align: center;
+}
+.zmr_xiao>div:nth-of-type(3){
+    text-align: right;
+}
+.zmr_xiao div a{
+     transition: color 0.2s ease-out;
+     color: #ffffff;
+}
+.zmr_xiao div a:hover{
+    color: #888888;
+}
+
+.zmr_caidanul{
+    width: 100%;
+    height: 0;
+    /*padding-bottom:200px;*/
+    background: rgba(0,0,0,1);
+    position: absolute;
+    top:44px;
+    overflow: hidden;
+    display: none;
+    z-index: 888;
+}
+.zmr_caidanul li{
+    width: 80%;margin:0 auto;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    height: 44px;line-height: 44px;
+}
+.zmr_caidanul li a{
+    display: block;
+    width: 100%;
+    transition: color 0.2s ease-out;
+    color: #ffffff;
+}
+.zmr_caidanul li a:hover{
+    color: #888888;
+}
+
+
+
+/*bannner开始*/
+
+.zmr_bannerbox{
+	width: 100%;height: 465px;
+	overflow: hidden;
+	position: relative;
+}
+.zmr_banner{
+	width: 100%;height: 120%;
+	position: absolute;
+	left: 100%;
+	cursor: pointer;
+}
+.zmr_banner:nth-child(1){
+	background: url(../images/iphone_alt_large.jpg);
+	background-position: center center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-color: #0a0a0a;
+	left: 0;
+}
+.zmr_banner:nth-child(1)>div{
+	position: relative;
+	top: 14%;width: 100%;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 32px;
+	text-align: center;
+}
+.zmr_banner:nth-child(1)>div>span{
+	font-size: 48px;
+	margin-left: 20px;
+	letter-spacing: 10px;
+}
+.zmr_banner:nth-child(2){
+	background: url(../images/watch_alt_large.jpg);
+	background-position: center center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-color: #efefef;
+}
+.zmr_banner:nth-child(2)>div{
+	position: relative;
+	top: 1%;width: 100%;
+	font-weight: 500;
+	color: #333;
+	font-size: 32px;
+	text-align: center;
+}
+.zmr_banner:nth-child(2)>div>span{
+	font-size: 48px;
+	margin-left: 20px;
+	letter-spacing: 10px;
+}
+.zmr_banner:nth-child(3){
+	background: url(../images/macbookpro_large.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+    background-size: 95% auto;	
+}
+.zmr_banner:nth-child(3)>div{
+	position: relative;
+	top: 1%;width: 100%;
+	font-weight: 500;
+	color: #333;
+	font-size: 22px;
+	text-align: center;
+}
+.zmr_banner:nth-child(3)>div>span{
+	font-size: 32px;
+	margin-left: 20px;
+	letter-spacing: 10px;
+}
+
+.tiaobox{
+	position: absolute;
+	bottom: 5%;
+	z-index: 9;
+	text-align: center;
+	width: 100%;
+}
+.tiao{
+	width: 180px;
+    height: 22px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.tiao>div{
+    margin: 0 5px;
+    width: 50px;
+    height: 4px;
+    float: left;
+    position: relative;
+    background-color: #aaaaaa;
+    border-radius: 1px;
+}
+.tiao>div>div{
+	width: 100%;height: 100%;
+	background-color: #333333;
+	width: 0;
+}
+
+.zmr_bleft{
+    position: absolute;
+    cursor: pointer;
+    width: 20%;
+    height: 100%;
+    z-index: 3;
+    left: 0;
+}
+.zmr_bleft_cir{
+    z-index: 1000;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    background: rgba(180,180,180,0.25);
+    color: #848484;
+    font-size: 55px;
+    text-align: center;
+    font-family: arial;
+    position: absolute;
+    top: 0;bottom: 0;left: 10px;margin: auto 0;
+    opacity: 0;
+}
+
+.zmr_bright{
+    position: absolute;
+    cursor: pointer;
+    width: 20%;
+    height: 100%;
+    z-index: 3;
+    right: 0;
+}
+.zmr_bright_cir{
+    z-index: 1000;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    background: rgba(180,180,180,0.25);
+    color: #848484;
+    font-size: 55px;
+    text-align: center;
+    font-family: arial;
+    position: absolute;
+    top: 0;bottom: 0;right: 10px;margin: auto 0;
+    opacity: 0;
+}
+
+/*bannner结束*/
+
+
+/*四幅图开始*/
+.zmr_imgbox{
+	height: 200px;
+	
+}
+.zmr_imgbox:nth-child(1){
+	background: url(../images/accessories_large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.zmr_imgbox:nth-child(2){
+	background: url(../images/airpods_large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.zmr_imgbox:nth-child(3){
+	background: url(../images/ipad_pro_large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.zmr_imgbox:nth-child(4){
+	background: url(../images/iphone_upgrade_large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*四幅图结束*/
+
+
+/*footer开始*/
+.zmr_footerbox{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.zmr_footerbox2{
+	padding: 0 22px;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+/*.zmr_footer{
+    max-width: 980px;
+    margin: 0 auto;
+}*/
+
+.zmr_footer_top{
+    font-size: 11px;
+    line-height: 1.45455;
+    font-weight: 400;
+    border-bottom: 1px solid #d6d6d6;
+    color: #888;
+    padding: 17px 0 11px;
+}
+.zmr_footm{
+    max-width: 980px;
+    margin: 0 auto;
+    color: #555;
+    font-size:12px;
+    padding:20px 0;
+    font-weight: 800;
+    overflow: hidden;
+    display: none;
+}
+.zmr_footm>ul{
+	width: 20%;
+    float: left;
+}
+.zmr_footm a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 300;
+    font-size:12px;
+    transition: color 0.2s ease-out;
+}
+.zmr_footm a:hover{
+    color:#333333;
+    text-decoration: underline;
+}
+
+.zmr_footm_xiao{
+    width: 100%;
+    margin: 0 auto;
+    color: #555;
+    font-size:12px;
+    padding:20px 0;
+    font-weight: 800;	
+}
+.zmr_footm_xiao>div{
+	height: 100%;width: 100%;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 10px 0;
+	cursor: pointer;
+}
+.zmr_footm_xiao>div:after{
+    content: '+';
+    float: right;
+    font-size: 14px;
+    margin-top: -12px;
+}
+.zmr_footm_xiao>div>ul>li{
+	height: 0;
+	/*padding: 6px 14px;*/
+	overflow: hidden;
+}
+.zmr_footm_xiao a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 300;
+    font-size:12px;
+    transition: color 0.2s ease-out;	
+}
+.zmr_footm_xiao a:hover{
+    color: #bbbbbb;
+}
+
+
+.zmr_footer_top{
+	position: relative;
+}
+.china{
+	position: absolute;
+	right: 0;top: 0;
+}
+.china>img{
+	vertical-align: middle;
+}
+.zmr_footer_top>a{
+	color: royalblue;
+}
+.zmr_footer_top>a:hover{
+	text-decoration: underline;
+}
+
+.zmr_ln{
+    border:none;
+    padding:5px 0;
+}
+.zmr_ln a{
+    color: #555;
+    transition: color 0.2s ease-out;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.zmr_ln a:hover{
+    color:#333333;
+}
+/*footer结束*/
