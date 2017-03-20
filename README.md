@@ -1,1 +1,1 @@
-https://740641444.github.io/practice/.apple/index.html
+https://740641444.github.io/practice/apple/index.html
